@@ -14,15 +14,21 @@ p {
 }
 
 .services {
+	min-width: 1260px;
+	margin: 0 auto;
 	padding-top: 50px;
 	padding-bottom: 50px;
 
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	margin-top: 40px;
 }
 
 .card {
+	width: 420px;
+	padding: 160px 30px 30px 30px;
+	text-align: center;
 	background-image: url("https://netology-code.github.io/html-2-homeworks/content-structure-tags/web-studio/img/creative-idea.svg");
 	background-repeat: no-repeat;
 	background-size: 96px;

@@ -5,9 +5,11 @@ body {
 }
 
 .news {
-	margin-top: 100px;
+	min-width: 960px;
+	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card:nth-child(odd) {
@@ -19,11 +21,18 @@ body {
 }
 
 .card-date {
+	display: block;
 	font-size: 13px;
+	margin-bottom: 20px;
 }
 
 .card-name {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 18px;
+}
+
+.card {
+	padding: 50px 40px;
+	width: 320px;
 }
